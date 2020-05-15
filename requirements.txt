@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib
+nltk
+Pillow
+tqdm
+lmdb
+tensorboardX
+torch
+torchvision
+pandas
+openpyxl

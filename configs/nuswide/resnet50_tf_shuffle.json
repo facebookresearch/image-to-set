@@ -1,0 +1,22 @@
+{
+    "dataset": "nuswide",
+    "image_model": "resnet50",
+    "model_name": "tf_shuffle",
+    "loss_weight": [
+        1.0,
+        0.0,
+        0.0
+    ],
+    "tf_layers": 3,
+    "ff_layers": 0,
+    "embed_size": 256,
+    "n_att": 4,
+    "learning_rate": 0.0001,
+    "scale_learning_rate_cnn": 0.1,
+    "batch_size": 32,
+    "dropout_encoder": 0.3,
+    "dropout_decoder": 0.3,
+    "weight_decay": 0.0,
+    "patience": 10,
+    "maxnumlabels": 13
+}

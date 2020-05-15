@@ -1,0 +1,22 @@
+{
+    "dataset": "ade20k",
+    "image_model": "resnet50",
+    "model_name": "tfset",
+    "loss_weight": [
+        1.0,
+        0.0,
+        0.01
+    ],
+    "tf_layers": 3,
+    "ff_layers": 0,
+    "embed_size": 256,
+    "n_att": 2,
+    "learning_rate": 0.001,
+    "scale_learning_rate_cnn": 0.01,
+    "batch_size": 32,
+    "dropout_encoder": 0.0,
+    "dropout_decoder": 0.0,
+    "weight_decay": 0.0,
+    "patience": 10,
+    "maxnumlabels": 32
+}

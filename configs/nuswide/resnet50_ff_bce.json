@@ -1,0 +1,22 @@
+{
+    "dataset": "nuswide",
+    "image_model": "resnet50",
+    "model_name": "ff_bce",
+    "loss_weight": [
+        1.0,
+        0.0,
+        0.0
+    ],
+    "tf_layers": 0,
+    "ff_layers": 1,
+    "embed_size": 512,
+    "n_att": 0,
+    "learning_rate": 0.0001,
+    "scale_learning_rate_cnn": 0.01,
+    "batch_size": 32,
+    "dropout_encoder": 0.3,
+    "dropout_decoder": 0.3,
+    "weight_decay": 0.0,
+    "patience": 10,
+    "maxnumlabels": 12
+}

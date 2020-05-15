@@ -1,0 +1,22 @@
+{
+    "dataset": "coco",
+    "image_model": "resnet50",
+    "model_name": "tfset",
+    "loss_weight": [
+        1.0,
+        0.0,
+        0.1
+    ],
+    "tf_layers": 2,
+    "ff_layers": 0,
+    "embed_size": 512,
+    "n_att": 2,
+    "learning_rate": 0.0001,
+    "scale_learning_rate_cnn": 0.01,
+    "batch_size": 32,
+    "dropout_encoder": 0.1,
+    "dropout_decoder": 0.1,
+    "weight_decay": 0.0,
+    "patience": 10,
+    "maxnumlabels": 19
+}
